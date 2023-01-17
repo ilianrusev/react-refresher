@@ -1,3 +1,5 @@
+import styles from "./Todo.module.css";
+
 import { useState } from "react";
 
 import Modal from "./Modal";
@@ -15,9 +17,9 @@ const Todo = (props) => {
   }
 
   return (
-    <div className="card">
+    <div className={styles.card}>
       <h2>{props.text}</h2>
-      <div className="actions">
+      <div className={styles.actions}>
         <button className="btn" onClick={deleteHandler}>
           Delete
         </button>

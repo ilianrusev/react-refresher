@@ -1,3 +1,5 @@
+import styles from "./Modal.module.css";
+
 export default function Modal(props) {
   function cancelHandler() {
     props.onCancel();
@@ -8,7 +10,7 @@ export default function Modal(props) {
   }
 
   return (
-    <div className="modal">
+    <div className={styles.modal}>
       <p>Are you sure?</p>
       <button className="btn" onClick={confirmHandler}>
         Confirm
