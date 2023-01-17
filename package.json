@@ -1,5 +1,6 @@
 {
   "name": "react-refresher",
+  "homepage": "https://ilianrusev.github.io/react-refresher/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
