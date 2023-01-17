@@ -8,7 +8,7 @@ import MainNavigation from "./components/layout/MainNavigation";
 
 export default function App() {
   return (
-    <div>
+    <>
       <MainNavigation />
       <Routes>
         <Route path="/" element={<AllMeetupsPage />} />
@@ -16,6 +16,6 @@ export default function App() {
         <Route path="/favourites" element={<FavouritesPage />} />
         <Route path="/todos" element={<TodosPage />} />
       </Routes>
-    </div>
+    </>
   );
 }
